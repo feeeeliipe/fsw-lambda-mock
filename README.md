@@ -8,7 +8,7 @@ Possibilitar a construção de customizações em ambiente local, sem a necessid
 
 ## Principais diretórios e arquivos do projeto
 
-  - Arquivo "index.js"
+  - Arquivo **index.js**
     - Esse é o arquivo principal da funcão lambda, por onde a execução será inicializada. 
     - Nesse projeto de exemplo esse arquivo já utiliza a estrutura indicada para customizações, fazendo a utilização da biblioteca FSW-AWS-LAMBDA, que disponibiliza alguns utilitários para construção de customizações para Plataforma Senior X. 
 
