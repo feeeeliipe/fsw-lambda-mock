@@ -34,3 +34,4 @@ Possibilitar a construção de customizações em ambiente local, sem a necessid
  4. Definir através do arquivo **payload.json** os parâmetros que serão enviados para execução da "lambda"; 
  5. Executar o projeto através do comando: npm run dev
  6. Ao executar o passo 5, os parâmetros definidos no arquivo **payload.json** serão repassados para a "função lambda" e as validações serão executadas. O resultado da execução será exibido no console. 
+ 
