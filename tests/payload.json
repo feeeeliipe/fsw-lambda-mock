@@ -1,0 +1,9 @@
+{
+    "environment": "prod",
+    "headers": {
+        "X-Senior-Token": "Bearer XXXXXXXXXXXXXXXXX"
+    },
+    "body": {
+        "name": "Felipe Gonçalves"
+    }
+}
