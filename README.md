@@ -11,3 +11,19 @@ Possibilitar a construção de customizações em ambiente local, sem a necessid
  - Clonar o repositório para a maquina local
  - Instalar as dependências do projeto através do comando: npm install
  - Executar o projeto através do comando: npm run dev
+
+## Principais diretórios e arquivos do projeto
+
+  - Arquivo "index.js"
+    - Esse é o arquivo principal da funcão lambda, por onde a execução será inicializada. 
+    - Nesse projeto de exemplo esse arquivo já utiliza a estrutura indicada para customizações, fazendo a utilização da biblioteca FSW-AWS-LAMBDA, que disponibiliza alguns utilitários para construção de customizações para Plataforma Senior X. 
+
+  - Diretório "tests"
+    - Esse diretório armazena os arquivos utilizados para simular a chamada da função lambda, como o payload que será enviado para a execução da função e o arquivo que realiza a execução da "lambda". 
+    - Obs: Esse diretório não existirá em ambiente produtivo (Cloud9). 
+
+    - Arquivo "payload.json"
+      - Nesse arquivo, deve-se informar o ambiente, token e payload que será utilizado para simular a chamada da "função lambda". 
+
+    - Arquivo "fsw-lambda-mock-starter.js"
+      - Esse é o arquivo responsável por simular a execução da lambda/chamada HTTP. 
